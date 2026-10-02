@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #111827, #1e3a8a);
+    color: white;
+        overflow: hidden;
+}
+header {
+    width: 100%;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.quadrado {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+
+    width: 300px;
+    height: 860px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+
+
+
+
+
+
+
+.ForumsB{
+    position: absolute;
+    left:85px;
+    top: 50px;
+        
+    width: 160px;
+    height: 30px;
+
+    border:none;
+    border-radius: 5px;
+
+    background-color: rgba(2, 1, 1, 0.459);
+    color: rgba(255, 255, 255, 0.616);
+    outline: none;
+
+    opacity: 0.8;
+}
+.ForumsB:hover{
+    background-color: rgba(2, 1, 1, 0.623);
+    cursor: pointer;
+}
+
+
+
+
+
+
