@@ -137,8 +137,6 @@ header {
 
 }
 
-
-
 .TXT2{
     position: fixed;
     
@@ -154,6 +152,24 @@ header {
     color: rgb(255, 253, 253);
 
 }
+
+.Result {
+    position: fixed;
+    
+    left: 1240px;
+    top: 410px;
+
+    width: 1100px;
+    height: 140px;
+
+    font-size: 13px;
+    font-weight: 800;
+
+    color: red;
+
+    z-index: 2;
+}
+
 
 
 
