@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #111827, #1e3a8a);
+    color: white;
+        overflow: hidden;
+}
+header {
+    width: 100%;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/*Button*/
+.BackB{
+    position: absolute;
+    left: 565px;
+    top: 605px;
+
+    font-size: 13px;
+    width: 99px;
+    height: 10px;
+
+    border:none;
+
+    background-color: rgba(69, 37, 184, 0);
+    color: white;
+
+    text-shadow: 0 0 10px white;
+
+    z-index: 9999;
+}
+.BackB:hover{
+    transition: 0.2s ease-out;
+    color: rgba(255, 255, 255, 0.39);  
+    text-shadow: 0 0 10px rgb(9, 226, 255);
+    cursor:pointer;
+}
+
+.Reg{
+    position: absolute;
+    left: 910px;
+    top: 580px;
+
+    font-size: 14px;
+    width: 125px;
+    height: 40px;
+
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: rgba(69, 37, 184, 0.384);
+    color: white;
+
+    z-index: 9999;
+}
+.Reg:hover{
+        transition: 0.30s ease-out;
+    background-color: rgba(69, 37, 184, 0.733);
+    cursor: pointer;
+}
+
+
+
+
+
+/*INPUT*/
+.INPUTR{
+    position: absolute;
+    left: 880px;
+    top: 400px;
+
+    width: 230px;
+    height: 40px;
+
+    border:none;
+    border-radius: 6px;
+    outline: none;
+
+    background-color: rgb(0, 7, 24);
+    Color: rgb(253, 250, 250);
+
+    padding-left: 5px;
+
+    z-index: 9999;
+}
+
+.INPUTR2{
+    position: absolute;
+    left: 880px;
+    top: 450px;
+
+    width: 230px;
+    height: 40px;
+
+
+    border:none;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 5px;
+
+    background-color: rgb(0, 7, 24);
+    Color: rgb(253, 250, 250);
+
+    z-index: 9999;
+}
+
+.INPUTR3{
+    position: absolute;
+    left: 880px;
+    top: 500px;
+
+    width: 230px;
+    height: 40px;
+
+
+    border:none;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 5px;
+
+    background-color: rgb(0, 7, 24);
+    Color: rgb(253, 250, 250);
+
+    z-index: 9999;
+}
+
+
+
+
+/*TEXT*/
+.ln1 {
+    position: fixed;
+    left: 840px;
+    top: 393px;
+
+    width: 1px;
+    height: 140px;
+
+    background-color: rgb(49, 49, 49);
+}
+
+.TXT{
+    position: fixed;
+    
+    left: 600px;
+    top: 400px;
+
+    width: 1100px;
+    height: 140px;
+
+    font-size: 16px;
+    font-weight: 800; 
+
+    color: rgba(247, 247, 247, 0.616);
+
+}
+
+.LG{
+    position: absolute;
+    left: 750px;
+    top: 409px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    Color: rgb(255, 255, 255);
+
+    z-index: 9999;
+}
+.LG2{
+     position: absolute;
+    left: 766px;
+    top: 425px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    Color: rgb(255, 255, 255);
+
+    z-index: 9999;   
+}
+
+.SN{
+    position: absolute;
+    left: 748px;
+    top: 460px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    Color: rgb(255, 255, 255);
+
+    z-index: 9999;
+}
+
+.Key{
+    position: absolute;
+    left: 793px;
+    top: 507px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    Color: rgb(255, 255, 255);
+
+    z-index: 9999;
+}
+
+
+
+
+
+/*Check*/
+.check {
+
+    position: absolute;
+    left: 1080px;
+    top: 460px;
+
+    display: inline-flex;
+    align-items: center;
+
+
+    cursor: pointer;
+    user-select: none;
+
+    z-index: 9999;
+}
+.check input[type="checkbox"] {
+    display: none;
+}
+.check-box {
+    width: 22px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #555;
+    border-radius: 6px;
+
+    transition: all 0.2s ease;
+}
+.check-box svg {
+    width: 15px;
+    height: 15px;
+
+    fill: none;
+    stroke: white;
+    stroke-width: 3;
+
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    opacity: 0;
+    transform: scale(0.5);
+
+    transition: 0.2s ease;
+}
+.check input:checked + .check-box {
+    border-color: #25eb50;
+    box-shadow: 0 0 12px rgba(37, 99, 235, 0.35);
+}
+
+
+
+
+
+/*DIV*/
+.quadrado {
+    position: absolute;
+
+    position: absolute;
+
+    left: 580px;
+    top: 386px;
+    width: 800px;
+    height: 250px;
+
+    border-radius: 8px;
+
+    border: 2px solid rgb(51, 2, 2);
+    box-shadow: 0 0 10px rgba(38, 0, 255, 0.432);
+}
+.quadrado2 {
+    position: fixed;
+    left: 580px;
+    top: 386px;
+    width: 800px;
+    height: 250px;
+
+    border-radius: 8px;
+
+    background: rgba(0, 0, 0, 0.623);
+}
